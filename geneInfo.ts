@@ -1,4 +1,4 @@
-import { LiveGeneDetails } from '../src/types';
+import type { LiveGeneDetails } from '../src/types.js';
 
 // In-memory cache for gene information annotations
 const geneCache = new Map<string, LiveGeneDetails>();

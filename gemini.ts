@@ -1,5 +1,5 @@
 import { GoogleGenAI } from '@google/genai';
-import { CopilotMessage } from '../src/types';
+import type { CopilotMessage } from '../src/types.js';
 
 let aiClient: GoogleGenAI | null = null;
 

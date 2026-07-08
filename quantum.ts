@@ -1,4 +1,4 @@
-import { QuantumJob } from '../src/types';
+import type { QuantumJob } from '../src/types.js';
 
 // ==========================================
 // 1. COMPLEX NUMBER CLASS DEFINITION

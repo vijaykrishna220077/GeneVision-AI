@@ -1,6 +1,0 @@
-{
-  "name": "GeneVision AI",
-  "description": "AI + Quantum Computing-powered Disease Gene Classification Platform for biomedical research, diagnostics, and therapeutics discovery.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

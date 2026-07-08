@@ -3,7 +3,7 @@ import path from 'path';
 import crypto from 'crypto';
 import dotenv from 'dotenv';
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
-import { Project, Dataset, PredictionResult, QuantumJob, ActivityLog, BiologicalPathway } from '../src/types';
+import type { Project, Dataset, PredictionResult, QuantumJob, ActivityLog, BiologicalPathway } from '../src/types.js';
 
 // Load environment variables
 dotenv.config();
