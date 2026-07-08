@@ -8,6 +8,6 @@
 // vercel.json rewrites every /api/* request to this single function, and
 // Express's own router (already defined in server.ts) dispatches to the
 // correct route internally.
-import app from "../server/index.ts";
+import app from "../server";
 
 export default app;
